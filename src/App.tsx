@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+import { LockOutlined as LockOutlinedIcon } from '@mui/icons-material';
+import { Avatar, Typography } from '@mui/material';
+import { EnhancedUserForm, Layout } from './components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Layout>
+    <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+      <LockOutlinedIcon />
+    </Avatar>
+    <Typography component="h1" variant="h5">
+      Sign up
+    </Typography>
+    <EnhancedUserForm />
+  </Layout>
+);
 
 export default App;
