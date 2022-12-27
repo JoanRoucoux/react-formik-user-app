@@ -1,3 +1,17 @@
+# Form validation using Formik and Yup
+
+This simple user form shows how we can use Formik and Yup to create and validate a form. I paid close attention to divide each part so that the code remains simple and clear (specially between UI and config). I'm using some of the main inputs in MUI (text field, checkbox, radio button, autocomplete and select).
+
+## Stack
+| Client  |
+| ------------- |
+| React |
+| Formik/Yup |
+| Material UI |
+
+## Demo form completion and validation
+<img src="https://user-images.githubusercontent.com/21682157/209727317-dc49d13d-a82a-4d35-af35-6b98abc4213c.gif" width="400">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
